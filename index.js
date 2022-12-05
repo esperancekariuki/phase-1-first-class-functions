@@ -1,16 +1,12 @@
-function saturdayFun (task = 'chai')
-{
-    return `This Saturday, I want to ${task}!`
-    
+function exerciseRoutine(chai) {
+    runFiveMiles();
+    chai();
 }
-const mondayWork = function (act = 'go to the office')
-{
-    return `This Monday, I will ${act}.`
-}
-function wrapAdjective(adj)
-{
-    return function(val = "special")
-    {
-        return `You are ${adj}${val}${adj}!`
-    }
+
+ return function (){
+    console.log(`Nom nom nom, this ${breakfast} is delicious!`);
+};
+
+let show = function(){
+    console.log ('Anonymous Function')
 }
