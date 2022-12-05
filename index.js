@@ -1,4 +1,4 @@
-function saturdayFun (task = 'roller-skate')
+function saturdayFun (task = 'chai')
 {
     return `This Saturday, I want to ${task}!`
     
